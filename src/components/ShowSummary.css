@@ -1,0 +1,113 @@
+/* Container styles */
+.summary-container {
+    max-width: 800px;
+    margin: 8px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title styles */
+  .summary-title {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    background-color: #e53935;
+    color: #fff;
+    margin-top: 0;
+  }
+  
+  /* Content styles */
+  .summary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .show-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .summary-text {
+    text-align: justify;
+  }
+  
+  /* Button styles */
+  .book-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.book-button:hover {
+  background-color: #c62828;
+}
+
+/* Ticket form styles */
+.ticket-form {
+    margin-top: 20px;
+  }
+  
+  .ticket-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ticket-form label {
+    margin-bottom: 5px;
+  }
+  
+  .ticket-form .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ticket-form .form-row label {
+    width: 120px;
+  }
+  
+  .ticket-form .form-row input[type="text"],
+  .ticket-form .form-row input[type="number"] {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .ticket-form .form-row.show-info {
+    flex-wrap: wrap;
+  }
+  
+  .ticket-form .form-row.show-info input {
+    margin-left: 5px;
+  }
+  
+  .ticket-form button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: flex-end;
+  }
+.ticket-form button:hover {
+  background-color: #c62828;
+}

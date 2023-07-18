@@ -1,0 +1,97 @@
+.header {
+  font-size: 35px;
+  margin-bottom: 20px;
+  background-color: #e53935;
+  color: #fff;
+  margin-top: 0px;
+ text-align: center;
+}
+
+.show-list-container {
+  text-align: center;
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.search-box input {
+  flex-grow: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #e53935;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.shows-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Update the number of columns to 4 */
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .shows-list {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns for mobile and tablet view */
+  }
+}
+
+.show-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.show-card img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.show-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.show-card a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #e53935;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.show-card a:hover {
+  background-color: #c62828;
+}
+
+
